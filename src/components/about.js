@@ -11,15 +11,7 @@ const About = () => {
             <Fade bottom cascade>
               <h1>About Me</h1>
             </Fade>
-            <p>
-              {data.aboutParaOne}
-              <br></br>
-              <br></br>
-              {data.aboutParaTwo}
-              <br></br>
-              <br></br>
-              {data.aboutParaThree}
-            </p>
+            <p>{data.aboutParaOne}</p>
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>
